@@ -7,7 +7,7 @@ import cv2
 from imutils.video import VideoStream 
 import imagezmq 
 
-sender = imagezmq.ImageSender(connect_to='tcp://10.144.113.180:5555') 
+sender = imagezmq.ImageSender(connect_to='tcp:// IP_ADDRESS_HERE ') #Add the IP address the device you want to recieve the image
 rpi_name = socket.gethostname() 
 capture = cv2.VideoCapture(4) 
 time.sleep(2) 
