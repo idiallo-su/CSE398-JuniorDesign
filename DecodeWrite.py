@@ -5,7 +5,7 @@ import sys
 import struct 
 import binascii 
 
-# initialise UART 
+# initialize UART 
 uart = mraa.Uart("/dev/ttyS4") 
 #set uart parameters 
 uart.setBaudRate(9600) 
